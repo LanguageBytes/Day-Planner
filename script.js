@@ -1,3 +1,4 @@
+//Displays Current Time on the Page
 
 function displayTime(){
     $("#currentDay").text(moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
@@ -5,6 +6,7 @@ function displayTime(){
 setInterval(displayTime, 1000);
 displayTime();
 
+//Shows Hours in Table
 function showHour(){
    nine = $("#nine").text(moment().set('hour', 9).format("hA"));
    ten = $("#ten").text(moment().set('hour', 10).format("hA"));
@@ -18,6 +20,8 @@ function showHour(){
 showHour();
 setInterval(showHour, 1000);
 
+
+//Changes Colours of TextArea
 var currentHour = new Date().getHours();
 
 //11
@@ -74,3 +78,56 @@ else if (currentHour >= 13 && currentHour < 14) {
 else if (currentHour < 13) {
     $(".thirteen").addClass("future");
 }
+
+
+//14
+if (currentHour > 14) {
+    $(".fourteen").addClass("past");
+}
+else if (currentHour >= 14 && currentHour < 15) {
+    $(".fourteen").addClass("present");
+}
+else if (currentHour < 14) {
+    $(".fourteen").addClass("future");
+}
+
+
+//15
+if (currentHour > 15) {
+    $(".fifteen").addClass("past");
+}
+else if (currentHour >= 15 && currentHour < 16) {
+    $(".fifteen").addClass("present");
+}
+else if (currentHour < 15) {
+    $(".fifteen").addClass("future");
+}
+
+
+
+//16
+if (currentHour > 16) {
+    $(".sixteen").addClass("past");
+}
+else if (currentHour >= 16 && currentHour < 17) {
+    $(".sixteen").addClass("present");
+}
+else if (currentHour < 16) {
+    $(".sixteen").addClass("future");
+}
+
+
+//17
+if (currentHour > 17) {
+    $(".seventeen").addClass("past");
+}
+else if (currentHour >= 17 && currentHour < 18) {
+    $(".seventeen").addClass("present");
+}
+else if (currentHour < 17) {
+    $(".seventeen").addClass("future");
+}
+
+
+//Save
+
