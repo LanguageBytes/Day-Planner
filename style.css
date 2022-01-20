@@ -1,9 +1,13 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background-image: url(/images/pinboard.jpg);
   line-height: 1;
 }
 
+.col-3 {
+  background-color: #ffffff;
+}
 textarea {
   background: transparent;
   border: none;
@@ -15,7 +19,7 @@ textarea {
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: rgb(85, 190, 158);
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -65,8 +69,9 @@ textarea {
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-radius: 10px;
   background-color: #06aed5;
+  padding: 1rem;
   color: white;
 }
 

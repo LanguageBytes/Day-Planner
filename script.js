@@ -94,7 +94,8 @@ var elevenAmSaveBtn = document.querySelector('.saveBtn3');
        localStorage.setItem('storage3', elevenAm.value);
    };
 
-//12 AM
+
+//12PM
 
 //Colours
 if (currentHour > 12) {
@@ -119,7 +120,9 @@ var twelvePmSaveBtn = document.querySelector('.saveBtn4');
    };
 
 
-//13
+//1PM
+
+//Colours
 if (currentHour > 13) {
     $(".thirteen").addClass("past");
 }
@@ -130,8 +133,18 @@ else if (currentHour < 13) {
     $(".thirteen").addClass("future");
 }
 
+//Storage
+var onePm = document.querySelector('.thirteen');
+var onePmSaveBtn = document.querySelector('.saveBtn5');
 
-//14
+  onePm.value = localStorage.getItem('storage5');
+  onePmSaveBtn.addEventListener('click', updateOutput5);
+  function updateOutput5() {
+       localStorage.setItem('storage5', onePm.value);
+   };
+
+
+//2PM
 if (currentHour > 14) {
     $(".fourteen").addClass("past");
 }
@@ -142,8 +155,21 @@ else if (currentHour < 14) {
     $(".fourteen").addClass("future");
 }
 
+//Storage
+var twoPm = document.querySelector('.fourteen');
+var twoPmSaveBtn = document.querySelector('.saveBtn6');
 
-//15
+  twoPm.value = localStorage.getItem('storage6');
+  twoPmSaveBtn.addEventListener('click', updateOutput6);
+  function updateOutput6() {
+       localStorage.setItem('storage6', twoPm.value);
+   };
+
+
+
+//3pm
+
+//Colours
 if (currentHour > 15) {
     $(".fifteen").addClass("past");
 }
@@ -154,9 +180,21 @@ else if (currentHour < 15) {
     $(".fifteen").addClass("future");
 }
 
+//Storage
+var threePm = document.querySelector('.fifteen');
+var threePmSaveBtn = document.querySelector('.saveBtn7');
+
+  threePm.value = localStorage.getItem('storage7');
+  threePmSaveBtn.addEventListener('click', updateOutput7);
+  function updateOutput7() {
+       localStorage.setItem('storage7', threePm.value);
+   };
 
 
-//16
+
+//4pm
+
+//Colours
 if (currentHour > 16) {
     $(".sixteen").addClass("past");
 }
@@ -168,7 +206,21 @@ else if (currentHour < 16) {
 }
 
 
-//17
+//Storage
+var fourPm = document.querySelector('.sixteen');
+var fourPmSaveBtn = document.querySelector('.saveBtn8');
+
+  fourPm.value = localStorage.getItem('storage8');
+  fourPmSaveBtn.addEventListener('click', updateOutput8);
+  function updateOutput8() {
+       localStorage.setItem('storage8', fourPm.value);
+   };
+
+
+
+//5pm
+
+//Colours
 if (currentHour > 17) {
     $(".seventeen").addClass("past");
 }
@@ -179,7 +231,14 @@ else if (currentHour < 17) {
     $(".seventeen").addClass("future");
 }
 
+//Storage
+var fivePm = document.querySelector('.seventeen');
+var fivePmSaveBtn = document.querySelector('.saveBtn9');
 
-//Save Storage
+  fivePm.value = localStorage.getItem('storage9');
+  fivePmSaveBtn.addEventListener('click', updateOutput9);
+  function updateOutput9() {
+       localStorage.setItem('storage9', fivePm.value);
+   };
 
 
