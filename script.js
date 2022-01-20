@@ -6,7 +6,7 @@ function displayTime(){
 setInterval(displayTime, 1000);
 displayTime();
 
-//Shows Hours in Table
+//Shows Hours in First Column
 function showHour(){
    nine = $("#nine").text(moment().set('hour', 9).format("hA"));
    ten = $("#ten").text(moment().set('hour', 10).format("hA"));
@@ -21,10 +21,10 @@ showHour();
 setInterval(showHour, 1000);
 
 
-//Changes Colours of TextArea
+//Setting the Current Hour
 var currentHour = new Date().getHours();
 
-//11
+//9AM
 if (currentHour > 9) {
     $(".nine").addClass("past");
 }
@@ -35,7 +35,17 @@ else if (currentHour < 9) {
     $(".nine").addClass("future");
 }
 
-//10
+
+ var nineAm = document.querySelector('.nine');
+ var nineAmSaveBtn = document.querySelector('.saveBtn1');
+   nineAm.value = localStorage.getItem('storage1');
+   nineAmSaveBtn.addEventListener('click', updateOutput1);
+   function updateOutput1() {
+        localStorage.setItem('storage1', nineAm.value);
+    };
+
+
+//10AM
 if (currentHour > 10) {
     $(".ten").addClass("past");
 }
@@ -129,5 +139,6 @@ else if (currentHour < 17) {
 }
 
 
-//Save
+//Save Storage
+
 
