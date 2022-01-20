@@ -94,7 +94,9 @@ var elevenAmSaveBtn = document.querySelector('.saveBtn3');
        localStorage.setItem('storage3', elevenAm.value);
    };
 
-//12
+//12 AM
+
+//Colours
 if (currentHour > 12) {
     $(".twelve").addClass("past");
 }
@@ -104,6 +106,18 @@ else if (currentHour >= 12 && currentHour < 13) {
 else if (currentHour < 12) {
     $(".twelve").addClass("future");
 }
+
+
+//Storage
+var twelvePm = document.querySelector('.twelve');
+var twelvePmSaveBtn = document.querySelector('.saveBtn4');
+
+  twelvePm.value = localStorage.getItem('storage4');
+  twelvePmSaveBtn.addEventListener('click', updateOutput4);
+  function updateOutput4() {
+       localStorage.setItem('storage4', twelvePm.value);
+   };
+
 
 //13
 if (currentHour > 13) {
