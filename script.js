@@ -25,6 +25,8 @@ setInterval(showHour, 1000);
 var currentHour = new Date().getHours();
 
 //9AM
+
+//Colours
 if (currentHour > 9) {
     $(".nine").addClass("past");
 }
@@ -35,7 +37,7 @@ else if (currentHour < 9) {
     $(".nine").addClass("future");
 }
 
-
+//Storage
  var nineAm = document.querySelector('.nine');
  var nineAmSaveBtn = document.querySelector('.saveBtn1');
    nineAm.value = localStorage.getItem('storage1');
@@ -46,6 +48,8 @@ else if (currentHour < 9) {
 
 
 //10AM
+
+//Colours
 if (currentHour > 10) {
     $(".ten").addClass("past");
 }
@@ -56,7 +60,20 @@ else if (currentHour < 10) {
     $(".ten").addClass("future");
 }
 
-//11
+
+//Storage
+var tenAm = document.querySelector('.ten');
+var tenAmSaveBtn = document.querySelector('.saveBtn2');
+
+  tenAm.value = localStorage.getItem('storage2');
+  tenAmSaveBtn.addEventListener('click', updateOutput2);
+  function updateOutput2() {
+       localStorage.setItem('storage2', tenAm.value);
+   };
+
+//11AM
+
+//Colours
 if (currentHour > 11) {
     $(".eleven").addClass("past");
 }
@@ -66,6 +83,16 @@ else if (currentHour >= 11 && currentHour < 12) {
 else if (currentHour < 11) {
     $(".eleven").addClass("future");
 }
+
+//Storage
+var elevenAm = document.querySelector('.eleven');
+var elevenAmSaveBtn = document.querySelector('.saveBtn3');
+
+  elevenAm.value = localStorage.getItem('storage3');
+  elevenAmSaveBtn.addEventListener('click', updateOutput3);
+  function updateOutput3() {
+       localStorage.setItem('storage3', elevenAm.value);
+   };
 
 //12
 if (currentHour > 12) {
