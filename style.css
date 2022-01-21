@@ -89,8 +89,12 @@ textarea {
 }
 
 
-@media screen (max-width: 1000px){
-  html, {
-  width: 100%
-}
-  
+@media screen and (max-width: 800px) {
+   .saveBtn {
+    border-left: none;
+    border-top-right-radius: none;
+    border-radius: none;
+    background-color: #fcea99;
+    padding: 0rem;
+    color: rgb(0, 0, 0);
+   }
