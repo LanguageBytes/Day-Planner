@@ -1,6 +1,6 @@
 # <p align="center"> Day-Planner </p>
 
- <p align = "center"> ![my image](images/screenshot.gif) </p>
+ ![my image](images/screenshot.gif) 
 
 ## <p align="center"> Task </p>
 
