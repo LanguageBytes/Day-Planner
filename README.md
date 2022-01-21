@@ -2,7 +2,7 @@
 
 ## 
 
-![my image](images/screenshot.mp4)
+![my image](images/screenshot.gif)
 
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
