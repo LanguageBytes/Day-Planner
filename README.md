@@ -1,6 +1,8 @@
 # <p align="center"> Day-Planner </p>
 
- ![my image](images/screenshot.gif) 
+ <p align="center">
+  <img src="images/screenshot.gif"/>
+</p>
 
 ## <p align="center"> Task </p>
 
