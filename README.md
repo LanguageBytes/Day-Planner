@@ -11,4 +11,4 @@ The application displays the current date and time at the the top of the page an
 
 ## <p align ="center"> Comments on Code </p>
 
-Moment js is a shiny, new tool :). I think my code here is very repetitive and I'm sure there must be a much more concise solution. I will work on this in the coming weeks. In retrospect, I don't think using moment js for the first column was neccesscary, this could maybe be transferred to a p tag in the html.
+Moment js is a shiny, new tool :). I think my code here is very repetitive and I'm sure there must be a much more concise solution. I will work on this in the coming weeks. In retrospect, I don't think using moment js for the first column was necessary, this could maybe be transferred to a p tag in the html.
