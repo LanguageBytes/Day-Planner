@@ -1,31 +1,12 @@
 # Day-Planner
 
-## 
+ ![my image](images/screenshot.gif) 
 
-![my image](images/screenshot.gif)
+## Task
 
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar DONE
+This is a simple daily planner application with a target audience of those with a busy schedule who wishes to plan their working day.
+The application displays the current date and time at the the top of the page and a timetable which they can tailor to their needs. The user is able to manually enter an event in the text area and save their changes by pressing the save button. This data will be saved in local storage on their device so they can refer back to it throughout the day.
 
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours DONE
+## Comments on Code
 
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future DONE
-
-WHEN I click into a timeblock
-THEN I can enter an event DONE
-
-
-
-TO DO 
-
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-
-WHEN I refresh the page
-THEN the saved events persist
+Moment js is a shiny, new tool :). I think my code here is very repetitive and I'm sure there must be a much more concise solution. I will work on this in the coming weeks. In retrospect, I don't think using moment js for the first column was neccesscary, this could maybe be transferred to a p tag in the html.
