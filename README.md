@@ -1,4 +1,4 @@
-# Day-Planner
+# <p align="center"> Day-Planner </p>
 
  ![my image](images/screenshot.gif) 
 
