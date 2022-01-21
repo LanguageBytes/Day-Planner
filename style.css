@@ -8,6 +8,12 @@ body {
 .col-3 {
   background-color: #ffffff;
 }
+
+
+img {
+  width: 5%;
+  height: 25%;
+}
 textarea {
   background: transparent;
   border: none;
@@ -19,15 +25,17 @@ textarea {
 
 .jumbotron {
   text-align: center;
-  background-color: rgb(85, 190, 158);
+  background-color: rgb(141, 219, 196);
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  font-family: 'Caveat';
 }
 
 .lead { 
   font-size: large;
   color:black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .description {
@@ -62,7 +70,7 @@ textarea {
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #8fe78f;
   color: rgb(0, 0, 0);
 }
 
@@ -70,9 +78,9 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-radius: 10px;
-  background-color: #06aed5;
+  background-color: #fcea99;
   padding: 1rem;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .saveBtn i:hover {
@@ -81,8 +89,8 @@ textarea {
 }
 
 
-@media screen (max-width: 1000px) {
-  html width: 100%;
+@media screen (max-width: 1000px){
+  html, {
+  width: 100%
 }
   
-}

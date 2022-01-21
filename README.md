@@ -1,5 +1,8 @@
 # Day-Planner
 
+## 
+
+![my image](images/screenshot.mp4)
 
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
