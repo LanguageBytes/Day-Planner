@@ -80,3 +80,9 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+
+@media screen (max-width: 1000px) {
+  html width: 100%;
+}
+  
+}
