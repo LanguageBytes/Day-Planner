@@ -1,5 +1,5 @@
 # <p align="center"> Day-Planner </p>
-
+<br> 
  <p align="center">
   <img src="images/screenshot.gif"/>
 </p>
