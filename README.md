@@ -4,6 +4,8 @@
   <img src="images/screenshot.gif"/>
 </p>
 
+<p align="center"> Link to deployed site: https://languagebytes.github.io/Working-Day-Planner/ </p>
+
 ## <p align="center"> Task </p>
 
 This is a simple daily planner application. Its target audience is a busy schedule who wish to plan their working day.
