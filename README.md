@@ -1,4 +1,4 @@
-# <p align="center"> Day-Planner </p>
+# <p align="center"> Working Day Planner </p>
 <br> 
  <p align="center">
   <img src="images/screenshot.gif"/>
