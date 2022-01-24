@@ -4,7 +4,7 @@
   <img src="images/screenshot.gif"/>
 </p>
 
-Link to deployed site: https://languagebytes.github.io/Working-Day-Planner/
+<p align="center"> Link to deployed site: https://languagebytes.github.io/Working-Day-Planner/ </p>
 
 ## <p align="center"> Task </p>
 
