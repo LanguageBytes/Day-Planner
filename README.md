@@ -8,7 +8,7 @@
 
 ## <p align="center"> Task </p>
 
-This is a simple daily planner application. Its target audience is a busy schedule who wish to plan their working day.
+This is a simple daily planner application. Its target audience is primarily those with a busy schedule wishing to plan their working day.
 The application displays the current date and time at the the top of the page and a timetable which they can tailor to their needs. The user is able to manually enter an event in the text area and save their changes by pressing the save button. This data will be saved in local storage on their device so they can refer back to it throughout the day.
 
 ## <p align ="center"> Comments on Code </p>
