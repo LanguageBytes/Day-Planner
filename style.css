@@ -17,7 +17,7 @@ img {
 
 .jumbotron {
   text-align: center;
-  background-color: rgb(141, 219, 196);
+  background-color: rgb(255, 255, 255);
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -63,7 +63,7 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #e5e5eb;
   color: rgb(0, 0, 0);
 }
 
@@ -78,12 +78,12 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-radius: 10px;
-  background-color: #fcea99;
+  border: none;
+  color:whitesmoke;
+  border-radius: 3px;
+  background-color: #383838;
   padding: 1rem;
-  color: rgb(0, 0, 0);
+
 }
 
 .saveBtn i:hover {
@@ -98,8 +98,8 @@ textarea {
     border-left: none;
     border-top-right-radius: none;
     border-radius: none;
-    background-color: #fcea99;
-    padding: 0rem;
-    color: rgb(0, 0, 0);
+    background-color: #353533;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
    }
   }
