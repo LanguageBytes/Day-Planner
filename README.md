@@ -1,7 +1,7 @@
 # <p align="center"> Working Day Planner </p>
 <br> 
  <p align="center">
-  <img src="screenshot.gif"/>
+  <img src="Images/screenshot.gif"/>
 </p>
 
 <p align="center"> Link to deployed site: https://languagebytes.github.io/Working-Day-Planner/ </p>
